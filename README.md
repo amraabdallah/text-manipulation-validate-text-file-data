@@ -1,8 +1,8 @@
 ## Requirments:
 
-* If the record has a FQDN Email address and has valid ID number
-* The script should print to the stdout: the $ID of $EMAIL is even|odd number.
-* If the record doesn't have a valid Email or a valid ID it should contine silently.
+* If the record has an FQDN Email address and has a valid ID number
+* The script should print to the stdout: the $ID of $EMAIL is an even|odd number.
+* If the record doesn't have a valid Email or ID, it should continue silently.
 
 ## The text file has the following data:
 
@@ -16,6 +16,6 @@ Bert bert@localhost 150
 
 ## Scripts
 
-I created two scripts _with the same funcionality_ which can process the text file to get the desired output
+I created two scripts _with the same functionality_ which can process the text file to get the desired output
 * The first one is a bash shell script [textMan.sh](./textMan.sh) 
 * The other is a python script [textMan.py](./textMan.py)
